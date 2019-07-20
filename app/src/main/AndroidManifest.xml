@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.vailing.chunqiu.promethues">
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".activity.level.zeus.One">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Two">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Three">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Four">
+
+        </activity>
+
+        <activity android:name=".activity.level.zeus.Five">
+
+        </activity>
+        <activity android:name=".activity.main.ChooseActivity">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Six">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Seven">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Eight">
+
+        </activity>
+        <activity android:name=".activity.level.zeus.Nine">
+
+        </activity>
+        <activity android:name=".activity.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.level.zeus.Ten">
+
+        </activity>
+
+        <activity android:name=".activity.main.AreaChooseActivity">
+
+        </activity>
+    </application>
+
+</manifest>
